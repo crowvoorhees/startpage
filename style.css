@@ -22,14 +22,13 @@ html, body{
 	margin-left: auto;
 	margin-right: auto;
 	width: 700px;
-	height: 600px;
+	height: 400px;
 }
 
 #header {
-    -webkit-box-shadow: 1px 1px 20px 0px #000;
-    -moz-box-shadow: 1px 1px 20px 0px #000;
-    box-shadow: 1px 1px 20px 0px #000;
-	//border: 2px solid #332d29;
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
 	border: 2px solid #1b1b1b;
 	background-color: #1b1b1b;
 	margin: 4px;
@@ -37,7 +36,6 @@ html, body{
 }
 
 #header:hover {
-	//border: 2px solid #504339;
 	border: 2px solid #1b1b1b;
 }
 
@@ -49,20 +47,18 @@ html, body{
 }
 
 .linksbox {
-    -webkit-box-shadow: 1px 1px 20px 0px #000;
-    -moz-box-shadow: 1px 1px 20px 0px #000;
-    box-shadow: 1px 1px 20px 0px #000;
-    -moz-box-flex: 1;	
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-flex: 1;	
 	-webkit-box-flex: 1;
 	margin: 4px;
 	padding: 8px 8px 8px 8px;
 	background-color: #1b1b1b;
-	//border: 2px solid #332d29;
 	border: 2px solid #1b1b1b;
 }
 
 .linksbox:hover {
-	//border: 2px solid #504339;
 	border: 2px solid #1b1b1b;
 }
 
@@ -100,7 +96,6 @@ form {
 input 	{
 	display: inline;
 	background: none;
-	//display: inline;
 	border: none;
 	color: #f8f8f8;
 	width: 80%;
